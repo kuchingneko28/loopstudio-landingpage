@@ -32,7 +32,7 @@
     background: url("../images/desktop/image-hero.jpg");
   }
   .hero-heading h1 {
-    font-size: 5rem;
+    font-size: 4rem;
   }
   .burger {
     display: none;
