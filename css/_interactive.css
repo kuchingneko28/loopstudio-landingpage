@@ -1,0 +1,12 @@
+.interactive-info {
+  text-align: center;
+}
+.interactive-info > h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 1rem;
+  font-size: 2rem;
+}
+.interactive-info > p {
+  color: var(--Dark-Gray);
+}

@@ -1,0 +1,23 @@
+@media (min-width: 50em) {
+  .grid {
+    /* grid-template-columns: repeat(4, minmax(12.5rem, 1fr)); */
+  }
+  .grid-items {
+    height: 25rem;
+  }
+  .nav-list {
+    display: flex;
+  }
+  .hero-heading {
+    max-width: 40rem;
+  }
+  .hero {
+    background: url("../images/desktop/image-hero.jpg");
+  }
+  .hero-heading h1 {
+    font-size: 5rem;
+  }
+  .burger {
+    display: none;
+  }
+}

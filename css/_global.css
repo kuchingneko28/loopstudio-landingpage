@@ -1,0 +1,50 @@
+@font-face {
+  font-family: JosefinSans;
+  src: url("../fonts/JosefinSans-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: Alata;
+  src: url("../fonts/Alata-Regular.ttf");
+}
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --Dark-Gray: hsl(0, 0%, 55%);
+  --Very-Dark-Gray: hsl(0, 0%, 41%);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: Alata;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: JosefinSans, sans-serif;
+  text-transform: uppercase;
+}
+.container {
+  margin-inline: auto;
+  max-width: 1110px;
+  padding: 2rem;
+}
+section:not(:first-child) {
+  margin-block: 3rem;
+}
