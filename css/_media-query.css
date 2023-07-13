@@ -35,11 +35,11 @@
   }
   .our-creations-title button {
     display: block;
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 1.25rem;
     border: 1px solid black;
     font-family: Alata, sans-serif;
     font-size: 0.8rem;
-    letter-spacing: 0.4rem;
+    letter-spacing: 4px;
     text-transform: uppercase;
     margin-block: 1rem;
     cursor: pointer;
