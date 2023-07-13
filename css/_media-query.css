@@ -21,14 +21,30 @@
     right: 10%;
     top: 50%;
     z-index: 2;
-    padding: 4rem;
+    padding: 4.2rem;
     position: absolute;
     left: revert;
   }
   .interactive-info > h2 {
     padding: unset;
+    margin-bottom: 1rem;
+    font-size: 3rem;
   }
-  .hero {
+  .interactive-info > p {
+    font-size: 0.95rem;
+  }
+  .our-creations-title button {
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 1px solid black;
+    font-family: Alata, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 0.4rem;
+    text-transform: uppercase;
+    margin-block: 1rem;
+    cursor: pointer;
+  }
+  .grid .hero {
     background: url("../images/desktop/image-hero.jpg");
   }
   .hero-heading h1 {
@@ -36,6 +52,14 @@
   }
   .burger {
     display: none;
+  }
+  .our-creations-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .our-creations-title h2 {
+    text-align: left;
   }
   .item-1 {
     background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.6)), url(../images/desktop/image-deep-earth.jpg);
