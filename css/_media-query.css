@@ -61,6 +61,20 @@
   .our-creations-title h2 {
     text-align: left;
   }
+  footer {
+    background: var(--Black);
+  }
+  footer .container {
+    flex-direction: row;
+  }
+
+  .footer-menu {
+    flex-direction: row;
+  }
+  .footer-social {
+    justify-content: flex-start;
+  }
+
   .item-1 {
     background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.6)), url(../images/desktop/image-deep-earth.jpg);
   }

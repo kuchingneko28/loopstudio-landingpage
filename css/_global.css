@@ -48,3 +48,7 @@ h6 {
 section:not(:first-child) {
   margin-block: 3rem;
 }
+.attribution {
+  text-align: center;
+  padding: 1rem;
+}
