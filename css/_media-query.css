@@ -1,80 +1,40 @@
 @media (min-width: 55em) {
+  /* 
+*navbar section
+*/
+  .nav-list {
+    display: flex;
+  }
+
+  .burger {
+    display: none;
+  }
+  /* 
+*hero section
+*/
+  .hero-heading {
+    max-width: 40rem;
+  }
+  .hero {
+    position: relative;
+    background: url("../images/desktop/image-hero.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .hero-heading h1 {
+    font-size: 4rem;
+  }
+  /* 
+*our creations section
+*/
   .grid {
     grid-template-columns: repeat(4, minMax(12.5rem, 1fr));
   }
   .grid-items {
     height: 23rem;
   }
-  .nav-list {
-    display: flex;
-  }
-  .hero-heading {
-    max-width: 40rem;
-  }
-  .interactive {
-    position: relative;
-  }
-  .interactive-info {
-    text-align: left;
-    background: white;
-    width: 36.625rem;
-    right: 10%;
-    top: 50%;
-    z-index: 2;
-    padding: 4.2rem;
-    position: absolute;
-    left: revert;
-  }
-  .interactive-info > h2 {
-    padding: unset;
-    margin-bottom: 1rem;
-    font-size: 3rem;
-  }
-  .interactive-info > p {
-    font-size: 0.95rem;
-  }
-  .our-creations-title button {
-    display: block;
-    padding: 0.3rem 1.25rem;
-    border: 1px solid black;
-    font-family: Alata, sans-serif;
-    font-size: 0.8rem;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    margin-block: 1rem;
-    cursor: pointer;
-  }
-  .grid .hero {
-    background: url("../images/desktop/image-hero.jpg");
-  }
-  .hero-heading h1 {
-    font-size: 4rem;
-  }
-  .burger {
-    display: none;
-  }
-  .our-creations-title {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  .our-creations-title h2 {
-    text-align: left;
-  }
-  footer {
-    background: var(--Black);
-  }
-  footer .container {
-    flex-direction: row;
-  }
-
-  .footer-menu {
-    flex-direction: row;
-  }
-  .footer-social {
-    justify-content: flex-start;
-  }
-
   .item-1 {
     background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.6)), url(../images/desktop/image-deep-earth.jpg);
   }
@@ -98,5 +58,70 @@
   }
   .item-8 {
     background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0.6)), url(../images/desktop/image-fisheye.jpg);
+  }
+  .our-creations-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .our-creations-title h2 {
+    text-align: left;
+  }
+  .btn-mobile {
+    display: none;
+  }
+  .btn-desktop {
+    display: block;
+    padding: 0.3rem 1.25rem;
+    border: 1px solid black;
+    font-family: Alata, sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  /* 
+*interactive section
+*/
+  .interactive {
+    position: relative;
+  }
+  .interactive-info {
+    text-align: left;
+    background: white;
+    width: 36.625rem;
+    right: 10%;
+    top: 50%;
+    z-index: 2;
+    padding: 4.2rem;
+    position: absolute;
+    left: revert;
+  }
+  .interactive-info > h2 {
+    padding: unset;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+  }
+  .interactive-info > p {
+    font-size: 0.95rem;
+  }
+
+  /* 
+  * footer section
+  */
+
+  footer {
+    background: var(--Black);
+  }
+  footer .container {
+    flex-direction: row;
+  }
+
+  .footer-menu {
+    flex-direction: row;
+  }
+  .footer-social {
+    justify-content: flex-start;
   }
 }

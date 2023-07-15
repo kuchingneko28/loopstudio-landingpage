@@ -7,12 +7,24 @@
   text-align: center;
 }
 
-.our-creations-title button {
+.btn-desktop {
   display: none;
+}
+.btn-mobile {
+  display: block;
+  padding: 0.3rem 1.25rem;
+  border: 1px solid black;
+  font-family: Alata, sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-inline: auto;
 }
 .grid {
   display: grid;
   gap: 1.25rem;
+  margin-block: 1rem;
 }
 
 .item-1 {

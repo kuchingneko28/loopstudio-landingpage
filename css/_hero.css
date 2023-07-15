@@ -4,6 +4,7 @@
   background: url("../images/mobile/image-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .hero-heading {
